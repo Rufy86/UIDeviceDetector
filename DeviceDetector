@@ -28,6 +28,7 @@ extension UIDevice {
         case iPad129        = "iPad 12,9"
         case iPad           = "iPad"
         case TV             = "Apple TV"
+        case carPlay        = "CarPlay"
         
         var isPhone: Bool {
             return [.iPhone35, .iPhone40, .iPhone47, .iPhone55, .iPhone58, .iPhone61_65].contains(self)
@@ -100,6 +101,8 @@ extension UIDevice {
         case appleWatchS2
         case appleWatchS3
         case appleWatchS4
+        
+        case carPlay
     }
     
     var deviceType:DeviceType? {
@@ -156,7 +159,7 @@ extension UIDevice {
                 return nil
             }
         case .carPlay:
-            return nil
+            return .carPlay
         case .unspecified:
             return nil
         }
