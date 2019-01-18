@@ -29,7 +29,7 @@ if UIDevice.current.deviceType?.isIPad {
 ## To Detect The Type of Device
 
 ```Swift
-switch UIDevice.current.deviceType{
+switch UIDevice.current.deviceType!{
     case .iPhone35:
         print("It's an 3,5 inch iPhone")
     case .iPhone40:
