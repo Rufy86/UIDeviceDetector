@@ -1,6 +1,7 @@
 # UIDeviceDetector
 An extension of UIDevice class to detect the device simply and fast.
 
+![Swift 4.2](https://img.shields.io/badge/Swift-4.2-orange.svg)
 <br>
 
 # Identifiable Devices
